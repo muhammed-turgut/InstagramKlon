@@ -3,7 +3,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
    android:layout_width="match_parent"
    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:background="@drawable/recyclerview_background"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
 
     <TextView
         android:id="@+id/recyclerViewUserEmailText"
@@ -11,9 +13,19 @@
         android:layout_height="wrap_content"
         android:textStyle="bold"
         android:text="Useremail Text"
-        android:layout_margin="10dp"
-        android:textSize="28sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
         android:textColor="@color/black"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="6dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/line_kozmetik" />
     <ImageView
         android:id="@+id/recyclerViewImageView"
         android:layout_width="300dp"
@@ -25,6 +37,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="User comment"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_margin="10dp"
         android:textSize="18sp"
         android:textColor="#3A3A3A"/>
